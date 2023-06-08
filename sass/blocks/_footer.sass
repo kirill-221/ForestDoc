@@ -1,0 +1,23 @@
+.footer
+    display: flex
+    justify-content: space-between
+    padding-bottom: 72px
+    align-items: center
+    &__nav
+        display: flex
+        width: 87%
+        justify-content: space-between
+    &__link
+        font: 500 20px/100% 'Urbanist', san-serif
+        text-decoration: none
+        color: $light
+        &--active
+            color: $primary
+        &--back
+            display: none
+        &:hover
+            color: $primary
+    &__enter
+        position: relative
+        display: flex
+        align-items: center
